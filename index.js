@@ -98,7 +98,7 @@ function generateCartDescription() {
 
 function total() {
   // write your code here
-  getCart().
+  
   
 }
 
