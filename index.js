@@ -77,9 +77,6 @@ for(let i = 0;i < getCart().length; i++){
 }
  return temp + itemNamePrice+"."
 
-
-
-
 */
     
 
@@ -101,6 +98,7 @@ function generateCartDescription() {
 
 function total() {
   // write your code here
+  
   
 }
 
