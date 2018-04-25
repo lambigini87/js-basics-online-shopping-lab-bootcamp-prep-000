@@ -126,9 +126,10 @@ function placeOrder(cardNumber) {
   if( cardNumber === null){
     return "Sorry, we don't have a credit card on file for you."
   } else {
+    var temp = `Your total cost is $${total()},  which will be charged to the card ${cardNumber}. `
     getCart().splice(0);
     
-    return `Your total cost is $${total()},  which will be charged to the card ${cardNumber}. `
+    return temp
   }
   
 }
