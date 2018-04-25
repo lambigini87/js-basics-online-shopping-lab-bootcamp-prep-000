@@ -101,7 +101,7 @@ function total() {
   var sum = 0;
   for(let i = 0; i < getCart().length; i++){
    sum += getCart()[i].itemPrice
-    console.log(typeof(sum))
+    
   }
   
 }
