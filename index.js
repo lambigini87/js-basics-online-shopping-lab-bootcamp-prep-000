@@ -110,12 +110,14 @@ function total() {
 function removeFromCart(item) {
  
   for(let i = 0; i < getCart().length; i++){
-   
+   if (getCart()[i].itemName === item){
+     
+   }
     
   }
   
   
-  return " "
+  return "That item is not in your cart."
   
 }
 
