@@ -128,7 +128,7 @@ function placeOrder(cardNumber) {
   } else {
     getCart() = []
     
-    return ` `
+    return `Your total cost is $${total()},  `
   }
   
   
