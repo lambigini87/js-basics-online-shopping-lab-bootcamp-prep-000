@@ -128,7 +128,7 @@ function placeOrder(cardNumber) {
   } else{
   
     var temp = `Your total cost is $${total()}, which will be charged to the card ${cardNumber}. `
-    getCart().splice(0);
+    getCart()=[];
     
     return temp
   }
