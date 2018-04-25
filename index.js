@@ -98,8 +98,9 @@ function generateCartDescription() {
 
 function total() {
   // write your code here
+  var sum
   for(let i = 0; i < getCart().length; i++){
-    console.log(getCart()[i].itemPrice)
+    getCart()[i].itemPrice
   }
   
 }
