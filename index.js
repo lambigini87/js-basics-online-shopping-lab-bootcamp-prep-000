@@ -108,7 +108,15 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+ 
+  for(let i = 0; i < getCart().length; i++){
+   
+    
+  }
+  
+  
+  return " "
+  
 }
 
 function placeOrder(cardNumber) {
