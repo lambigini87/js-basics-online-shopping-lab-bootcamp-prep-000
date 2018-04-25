@@ -98,7 +98,9 @@ function generateCartDescription() {
 
 function total() {
   // write your code here
-  
+  for(let i = 0; i < getCart().length; i++){
+    console.log()
+  }
   
 }
 
